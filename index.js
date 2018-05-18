@@ -24,7 +24,7 @@ function deepestChild() {
   for (let i = 0; i < node.length-1; i++) {
     nextNode = node[i].querySelector('div')
   }
-  
+  return nextNode
 }
 
 /*
