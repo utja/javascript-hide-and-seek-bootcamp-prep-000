@@ -25,10 +25,6 @@ function deepestChild() {
     nextNode = node[i].querySelector('div')
   }
   
-  while(nextNode) {
-    node = nextNode
-    nextNode = node.children[0]
-  }
 }
 
 /*
